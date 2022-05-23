@@ -44,7 +44,7 @@ else
     end
     options.add_argument('--disable-infobars')
     options.add_emulation(device_metrics: { width: 1280, height: 960, touch: false })
-    Capybara::Selenium::Driver.new(app, browser: :chrome, options: options)
+    Capybara::Selenium::Driver.new(app, browser: :chrome, capabilities: options)
   end
 end
 

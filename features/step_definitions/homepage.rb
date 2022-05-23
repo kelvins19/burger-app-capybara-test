@@ -1,5 +1,3 @@
-# include 'support/env'
-
 Given('I visit bburger consumer website') do
     visit '/'
 end
