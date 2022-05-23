@@ -6,6 +6,7 @@ This test kit can be run on Linux, macOS, and Windows (via WSL).
 1. Google Chrome or any other Chromium-based web browsers
 2. Ruby 2.7.1p83: Install it via rbenv/ruby-install/rvm, never use OS provided Ruby.
 
+[*Installing Ruby on Ubuntu*](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04) Follow Step 1 - 3
 ## Installation Procedure
 Copy the env by running this command
 > cp .env.example .env

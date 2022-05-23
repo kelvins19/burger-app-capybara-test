@@ -11,7 +11,6 @@ require 'webdrivers'
 require 'webdrivers/chromedriver'
 require 'webdrivers/geckodriver'
 require 'webdrivers/edgedriver'
-# require 'discord-notifier'
 require 'discordrb'
 require 'discordrb/webhooks'
 
