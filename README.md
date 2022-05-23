@@ -24,6 +24,9 @@ Set up the test
 To run the test, run this command inside this repo:
 > cucumber
 
+To run the test and generate html report:
+> cucumber features --format html --out reports/reports_$(date +"%FT%T").html
+
 ## Running the test in headful mode
 
 For eyeball debugging, you can display the browser as the test is running by commenting the 'HEADLESS=true' in .env
