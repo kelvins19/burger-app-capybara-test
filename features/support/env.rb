@@ -42,7 +42,9 @@ else
     if ENV["HEADLESS"]
       options.add_argument('--headless')
     end
+    options.add_argument('--no-sandbox')
     options.add_argument('--disable-infobars')
+    options.add_argument('--disable-dev-shm-usage')
     options.add_emulation(device_metrics: { width: 1280, height: 960, touch: false })
     Capybara::Selenium::Driver.new(app, browser: :chrome, capabilities: options)
   end
