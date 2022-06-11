@@ -25,8 +25,8 @@ To run the test, run this command inside this repo:
 > cucumber
 
 To run the test and generate html report:
-> cucumber features --format html --out reports/reports_$(date +"%FT%T").html
 The report will be saved in html format in `reports` directory
+> cucumber features --format html --out reports/reports_$(date +"%FT%T").html
 
 ## Running the test in headful mode
 
